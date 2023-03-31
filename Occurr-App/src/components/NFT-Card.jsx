@@ -23,10 +23,10 @@ const NFT = (props) => {
                     <p className="NFT-Description-Text">{Description}</p>
                 </div>
                 <div className="NFT-Creator">
-                    <img className="NFT-Profile-Selector" src={Profile} alt="Profile Image"></img><span className="NFT-Spacer"></span><p className="NFT-Creator-Text">{Creator}</p>
+                    <img className="NFT-Profile-Selector" src={Profile} alt="Profile Image"></img><p className="NFT-Creator-Text">{Creator}</p>
                 </div>
                 <div className="NFT-Price">
-                    <p className="NFT-Price-Text">{Price}</p>
+                    <p className="NFT-Price-Text">$<span className="Price-Spacer"></span>{Price}</p>
                 </div>
             </div>
         </div>

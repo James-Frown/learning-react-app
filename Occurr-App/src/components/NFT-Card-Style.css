@@ -1,16 +1,22 @@
+p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    color: #070b1a;
+}
+
 .NFT-Box {
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
 
     width: 250px;
-    height: 500px;
-    background-color: #006BCE;
+    height: auto;
+    background-color: #ffffff;
 
     padding: 1rem;
     border-radius: 10px;
     margin: 1rem;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 
 .NFT-Wrapper {
@@ -18,8 +24,6 @@
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-
-    background-color: #ffffff;
 }
 
 .NFT-Image {
@@ -28,51 +32,82 @@
     width: 200px;
     height: 200px;
     background-color: black;
+    border-radius: 10px;
 }
 
 .NFT-Image-Selector {
     justify-content: center;
     text-align: center;
     object-fit: fill;
+    border-radius: 10px;
 }
 
 .NFT-Title {
+    width: 200px;
 
+    display: flex;
+    justify-content: center;
+    text-align: center;
 }
 
 .NFT-Title-Text {
-
+    font-size: 18px;
+    font-weight: bold;
 }
 
 .NFT-Description {
+    width: 200px;
 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
 }
 
 .NFT-Description-Text {
-
+    margin: 10px;
+    
+    font-size: 11px;
+    font-weight: 300;
+    letter-spacing: 0.1rem;
 }
 
 .NFT-Creator {
+    width: 200px;
 
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
 }
 
 .NFT-Profile-Selector {
     width: 30px;
     height: 30px;
-}
-
-.NFT-Spacer {
-
+    border-radius: 30px;
+    background-color: black;
 }
 
 .NFT-Creator-Text {
-
+    font-size: 14px;
+    font-weight: 550;
+    letter-spacing: 0.1rem;
 }
 
 .NFT-Price {
+    width: 200px;
 
+    display: flex;
+    justify-content: right;
 }
 
 .NFT-Price-Text {
+    font-size: 18px;
+    font-weight: bolder;
+    letter-spacing: 0.2rem;
+}
 
+.Price-Spacer {
+    padding-left: 0.3rem;
+    padding-right: 0.3rem;
 }

@@ -1,0 +1,19 @@
+.NFT-Page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.NFT-Page-Wrapper {
+    text-align: center;
+}
+
+.NFT-Page-Heading {
+    text-align: center;
+}
+
+.NFT-Page-Collection {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
