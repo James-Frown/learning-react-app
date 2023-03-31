@@ -7,7 +7,7 @@ const App = () => {
 
   return (
     <div className="App">
-      <NFT Image="" Title="Neon-0001" Description="A blend of amazing colors" Creator="John Doe" Profile="" Price="$100.00" />
+      <NFT Image="https://loremflickr.com/200/200?random=1" Title="Me-Casss-O" Description="A playfull Picasso worth image" Creator="Dayy-Driver" Profile="https://loremflickr.com/30/30/?random=1" Price="$10.00" />
     </div>
   )
 }

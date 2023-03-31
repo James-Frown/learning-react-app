@@ -31,7 +31,9 @@
 }
 
 .NFT-Image-Selector {
-
+    justify-content: center;
+    text-align: center;
+    object-fit: fill;
 }
 
 .NFT-Title {
@@ -55,7 +57,8 @@
 }
 
 .NFT-Profile-Selector {
-
+    width: 30px;
+    height: 30px;
 }
 
 .NFT-Spacer {
